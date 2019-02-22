@@ -19,5 +19,6 @@ WORKDIR /root/Hexactitude
 RUN git checkout 16.04
 RUN rm /root/.zshrc
 RUN cp ~/Hexactitude/kiabi/.zshrc /root/.zshrc
-WORKDIR /root
+RUN mkdir /bekom
+WORKDIR /bekom
 # RUN SCRIPT QUI REMPLACE VIA SYMLINK LES FICHIERS DE CONF ( ZSHRC ) 
