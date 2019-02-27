@@ -21,7 +21,6 @@ RUN git checkout 16.04
 RUN rm /root/.zshrc
 RUN cp ~/Hexactitude/kiabi/.zshrc /root/.zshrc
 RUN mkdir /bekom
-RUN git config --global core.autocrlf true
 RUN git config --global core.filemode false
 RUN git config --global user.email maximilien.garenne@gmail.com
 RUN git config --global user.name 'Maximilien Garenne'
